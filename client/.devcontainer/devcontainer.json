@@ -1,0 +1,5 @@
+{
+  "name": "React + .NET",
+  "forwardPorts": [5000, 3000],
+  "postCreateCommand": "dotnet restore && cd client && npm install"
+}
